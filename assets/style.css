@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*------------------------------Base Styles--------------------------------*/
+
+.bg-color{
+		background-color: #00ffff;
+	}
+.el-color{
+		background-color: #00ff02;
+	}
+.el-color2{
+		background-color: #ff0002;
+	}
+.wrapper{
+		display: grid;
+		grid-template-columns: 4fr 8fr;
+		grid-gap: 0em;
+	}
+.wrapper1{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2em;
+	}
+.wrapper2{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2em;
+	}
+.image{
+		width: 100%;
+		height: auto;
+	}
+
+/*-----------------------------Media Queries----------------------------------*/
+
