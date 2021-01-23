@@ -1,40 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;1,400&family=David+Libre:wght@400;500&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
+	font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+		
 }
+
+
 
 /*------------------------------Base Styles--------------------------------*/
 
+:root {
+  --element-col: 67, 68, 85;
+}
+
+#navbar{
+	 width:100%;
+	 background-color: rgba(70,70,70,0.6);
+	 height: 40px;
+	 position: fixed;
+	 top: 0px;
+	 padding: 5px;
+	 text-align: left;
+	 }
+#banner{
+		margin-bottom: 0;
+	}
+.banner{
+			width:100%;
+			height: 100%;
+			opacity: 0.4;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+.heading{
+			text-align: center;
+			font-size: 1.4vmax;
+			background-color: rgba(50,50,50,0.2);
+			padding: 0.8em;
+			margin-top: 1em;
+			margin-bottom: 0.5em;
+		}
+			
+	 
 .bg-color{
-		background-color: #00ffff;
+		background-color: #b7bcd2;
 	}
-.el-color{
-		background-color: #00ff02;
+	
+#greeting{
+		background-color: #514659;
+		padding: 1em;
+		margin-top: 0;
 	}
-.el-color2{
-		background-color: #ff0002;
-	}
-.wrapper{
-		display: grid;
-		grid-template-columns: 4fr 8fr;
-		grid-gap: 0em;
-	}
-.wrapper1{
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 2em;
-	}
-.wrapper2{
+	
+
+
+.wrapper-img{
+		margin: 2vmax;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 2em;
+		grid-gap: 2vmax;
 	}
+	
 .image{
 		width: 100%;
 		height: auto;
 	}
 
+.more{
+		font-size: 1.4vmax;
+		text-align: right;
+		padding-right: 2vmax;
+}
+
+.wrapper-prev{
+		margin: 2vmax;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2vmax;
+	}
+
+
+.preview-element{
+		background-color: rgb(var(--element-col));
+		width: auto;
+	}
+.prev-text{
+		    text-align: justify;
+		    font-size: 1.3vmax;
+		    padding-top: 1vmax;
+		    padding-right: 1vmax;
+			padding-bottom: 1vmax;
+		   }
+.prev-link{
+			display: grid;
+			color: black;
+		}
+		
+.prev-link:link{
+					text-decoration: none;
+					color: black;
+				}	
+
+.prev-link:hover{
+					text-decoration: none;
+					filter: brightness(0.6);
+		}
+
+.image-prev{
+	width:40%;
+	height: auto;
+	float: left;
+	padding-right: 1vmax;
+	}
+
 /*-----------------------------Media Queries----------------------------------*/
+
 
