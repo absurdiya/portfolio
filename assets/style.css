@@ -197,13 +197,24 @@
 		}
 			
 .button{
-			font-size: 1.35vmax;
+			font-size: 1.8vmax;
 			padding: 0.6vmax 1.2vmax;
 			border: none;
 			border-radius: 5px;
 			margin: 1vmax;
 			background-color:rgba(70,70,70,0.2) 
 			}
+
+.button:hover {
+  		filter: brightness(0.3);
+		outline: none;
+		}
+.button:focus{
+		outline: none;
+		}
+.button:active{
+		outline: none;
+		}
 
 .button-container{
 					text-align: center;
