@@ -7,7 +7,7 @@ function changeTheme()
 	document.getElementById("bg").classList.remove(temp);
 	var part = temp.split('_')[2];
 	
-	var images = document.getElementByClassName("image");
+	//var images = document.getElementByClassName("image");
 	
 	var newtheme = "";
 	
