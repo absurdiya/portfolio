@@ -15,20 +15,36 @@
 	--color-body: #b7bcd2;
   --color-greet: #514659;
   --color-card: #434455;
+  --text-color-headers: #33252a;
+  --text-color-card: #a2a8c3;
+  --text-color-greet: #a2a8c3;
   
   Night Theme:
- --color-body: #30291f;
-  --color-greet: #828b8c;
+--color-body: #30291f;
+  --color-greet: #8f978d;
   --color-card: #8f978d;
+  --text-color-headers: #8f978d;
+  --text-color-card: #1f1a13;
+  --text-color-greet: #1f1a13;
   
   Blue Theme:
+    --color-body: #9ab6ca;
+  --color-greet: #ceb4a4;
+  --color-card: #ceb4a4;
+  --text-color-headers: #33252a;
+  --text-color-card: #33252a;
+  --text-color-greet: #33252a;
+}
   	
 		*/
 
 :root {
-  --color-body: #9ab6ca;
-  --color-greet: #ceb4a4;
-  --color-card: #b89d8c;
+	--color-body: #b7bcd2;
+  --color-greet: #514659;
+  --color-card: #514659;
+  --text-color-headers: #33252a;
+  --text-color-card: #a2a8c3;
+  --text-color-greet: #a2a8c3;
 }
 
 .nav{
@@ -68,11 +84,16 @@
 			padding: 0.8em;
 			margin-top: 1em;
 			margin-bottom: 0.5em;
+			color: var(--text-color-headers);
 		}
 			
 	 
 .bg-color{
 		background-color: var(--color-body);
+	}
+
+.greet{
+		color: var(--text-color-greet);
 	}
 	
 .wrapper-img{
@@ -87,11 +108,11 @@
 		height: auto;
 	}
 
-.more{
+/*.more{
 		font-size: 1.4vmax;
 		text-align: right;
 		padding-right: 2vmax;
-}
+}*/
 
 .wrapper-prev{
 		margin: 2vmax;
@@ -104,6 +125,7 @@
 .preview-element{
 		background-color:var(--color-card) ;
 		width: auto;
+		color: var(--text-color-card);
 	}
 .prev-text{
 		    text-align: justify;
