@@ -26,14 +26,15 @@
 	 text-align: left;
 	 }
 #banner{
-		margin-bottom: 0;
+		margin: 0;
+		padding:0;
 	}
 .banner{
 			width:100%;
-			height: 100%;
+			height: auto;
 			opacity: 0.4;
-			margin-bottom: 0;
-			padding-bottom: 0;
+			margin: 0;
+			padding:0;
 		}
 
 .heading{
@@ -53,7 +54,7 @@
 #greeting{
 		background-color: #514659;
 		padding: 1em;
-		margin-top: 0;
+		margin-top: -6px;
 	}
 	
 
