@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script src="assets/script.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel = "stylesheet" type = "text/css" href = "assets/style.css">
 		<title>absurdiya</title>
 	</head>
-<body class="bg-color">
+<body id="bg" class="bg_theme_main">
 <header>
 	<nav id="navbar" class="nav">
 	</nav>
@@ -14,37 +15,46 @@
 	<div id="banner"><img class="banner" src="assets/img/banner.png" alt="banner image"></div>
 
 		
-		<div id="greeting" class="greet">
+		<div id="greeting" class="greeting_theme_main">
 		<h1 style="text-align: center; font-size: 4.8vmax">Hello there! I'm Diya</h1><br>
 		<p style="text-align: center; font-size: 1.4vmax">A Design enthusiast who likes to make weird things.<br>I collect puzzle pieces from places familar and unfamiliar,<br> hoping to put them together as an all-embracing story one day.<br>Have a little taste of my little world and it's subtle or absurd surrealism.<br><br></p>
 		</div>
 	
 	
-	<div id="workprev">
-		<div class="section-head"><h1>glimpse of puzzle pieces</h1></div>
+		<div id="prevHead" class="section-head header_text_theme_main"><h1>glimpse of puzzle pieces</h1></div>
+		
+ 			 <div class="button-container">
+    			<button type="button" onclick="changeTheme()" class="button button_theme_main">Change Mode</button>
+  			</div>
+		
 		<div class="wrapper-img">
-			<div><img class="image" src="assets/img/mood-21.png" alt="image preview"></div>
-			<div><img class="image" src="assets/img/mood-22.png" alt="image preview"></div>
-			<div><img class="image" src="assets/img/mood-23.png" alt="image preview"></div>
+			<div><img class="image" src="assets/img/mood-11.png" alt="image preview"></div>
+			<div><img class="image" src="assets/img/mood-12.png" alt="image preview"></div>
+			<div><img class="image" src="assets/img/mood-13.png" alt="image preview"></div>
 		</div>
 		<!--<p class="more">More...</p>-->
-	</div>
 	
 	
 	<div id="preview">
-		<div class="section-head"><h1>find me at other places</h1></div>
+		<div id="placesHead" class="section-head header_text_theme_main"><h1>find me at other places</h1></div>
 		
 		<div class="wrapper-prev">
-			<a class="prev-link" href="https://dribbble.com/absurdiya" target="_blank">
-			<div class="preview-element"><img src="assets/img/drib_prev.png" class="image-prev"><p class="prev-text">I am Graphic Designer.
+			<a class="prev-link card_theme_main" href="https://dribbble.com/absurdiya" target="_blank">
+			
+			<div class="preview-element card_theme_main"><img src="assets/img/drib_prev.png" class="image-prev"><p class="prev-text">I am Graphic Designer.
 I also try my hands on photo manipulation and making weird things […]<br><br>[more on <em>Dribbble...</em>]</p></div>
 			</a>
-			<a class="prev-link" href="https://www.behance.net/absurdiya" target="_blank">
-			<div class="preview-element"><img src="assets/img/behance_prev.png" class="image-prev"><p class="prev-text">Mind. Imaginings. An escape from a dim reality when one's stuck between walls. Noise and […]<br><br>[more on <em>Behance...</em>]</p>
+			
+			
+			<a class="prev-link card_theme_main" href="https://www.behance.net/absurdiya" target="_blank">
+			
+			<div class="preview-element card_theme_main"><img src="assets/img/behance_prev.png" class="image-prev"><p class="prev-text">Mind. Imaginings. An escape from a dim reality when one's stuck between walls. Noise and […]<br><br>[more on <em>Behance...</em>]</p>
 </div></a>
 
-			<a class="prev-link" href="https://absurdiya.wordpress.com/" target="_blank">
-			<div class="preview-element"><img src="assets/img/word_prev.png" class="image-prev"><p class="prev-text">Some of us regret what we did not do and not what we did. That is the gist of what is to follow […]<br><br>[more on <em>WordPress...</em>]</p></div></a>
+
+			<a class="prev-link card_theme_main" href="https://absurdiya.wordpress.com/" target="_blank">
+			
+			<div class="preview-element card_theme_main"><img src="assets/img/word_prev.png" class="image-prev"><p class="prev-text">Some of us regret what we did not do and not what we did. That is the gist of what is to follow […]<br><br>[more on <em>WordPress...</em>]</p></div></a>
 		</div>
 	</div>
 	
