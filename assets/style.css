@@ -8,15 +8,30 @@
 		
 }
 
-
-
 /*------------------------------Base Styles--------------------------------*/
 
+/*Themes:
+	Main Foggy Theme:
+	--color-body: #b7bcd2;
+  --color-greet: #514659;
+  --color-card: #434455;
+  
+  Night Theme:
+ --color-body: #30291f;
+  --color-greet: #828b8c;
+  --color-card: #8f978d;
+  
+  Blue Theme:
+  	
+		*/
+
 :root {
-  --element-col: 67, 68, 85;
+  --color-body: #9ab6ca;
+  --color-greet: #ceb4a4;
+  --color-card: #b89d8c;
 }
 
-#navbar{
+.nav{
 	 width:100%;
 	 background-color: rgba(70,70,70,0.6);
 	 height: 40px;
@@ -25,10 +40,19 @@
 	 padding: 5px;
 	 text-align: left;
 	 }
+	 
+
+#greeting{
+		background-color: var(--color-greet);
+		padding: 1em;
+		margin-top: -7px;
+	}
 #banner{
 		margin: 0;
 		padding:0;
 	}
+	
+	
 .banner{
 			width:100%;
 			height: auto;
@@ -37,7 +61,7 @@
 			padding:0;
 		}
 
-.heading{
+.section-head{
 			text-align: center;
 			font-size: 1.4vmax;
 			background-color: rgba(50,50,50,0.2);
@@ -48,17 +72,9 @@
 			
 	 
 .bg-color{
-		background-color: #b7bcd2;
+		background-color: var(--color-body);
 	}
 	
-#greeting{
-		background-color: #514659;
-		padding: 1em;
-		margin-top: -6px;
-	}
-	
-
-
 .wrapper-img{
 		margin: 2vmax;
 		display: grid;
@@ -86,7 +102,7 @@
 
 
 .preview-element{
-		background-color: rgb(var(--element-col));
+		background-color:var(--color-card) ;
 		width: auto;
 	}
 .prev-text{
