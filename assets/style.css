@@ -297,18 +297,33 @@ body{
 	}
 
 .footer{
-		background-color: rgba(70,70,70,0.5);
+		background-color: rgba(0,0,0,0.4);
 		width: 100%;
 		text-align: center;
 }
 .footer-text{
-		font-size: 1.5vmax;
-		padding: 1.5em;
+		color: rgba(255,255,255,0.5);
+		font-size: 1.8vmax;
+		padding: 1.5vmax;
+		font-weight: 500;
 		}
 .fab{
-	font-size: 2vmax;
+	color: rgba(255,255,255,0.5);
+	font-size: 2.2vmax;
 	padding: 0.5vmax 0.5vmax 2vmax 0.5vmax;
 }
+.fas{
+	color: rgba(255,255,255,0.5);
+	font-size: 2.2vmax;
+	padding: 0.5vmax 0.5vmax 2vmax 0.5vmax;
+}
+.fab:hover{
+		color: white;
+	}
+.fas:hover{
+		color: white;
+	}
+
 
 /*-----------------------------Media Queries----------------------------------*/
 @media(min-width: 992px){
