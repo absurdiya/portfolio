@@ -58,7 +58,13 @@ function changeTheme()
 		x[i].className = "preview-element card_theme_" + newtheme;
 	}
 	
-	/******Modify Images***********/
+	/*/******Modify Images***********/
+	var x = document.getElementsByClassName("image");
+	for(i = 0; i<3; i++)
+	{
+		var idx = i + 1;
+		x[i].src="assets/img/" + newtheme + "-" + idx + ".png";
+	}
 	
 	
 //note: classList.add is adding class at the end of the list. Index issue.
