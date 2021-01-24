@@ -335,18 +335,27 @@ body{
 .footer-text{
 		color: rgba(255,255,255,0.5);
 		font-size: 1.8vmax;
-		padding: 1.5vmax;
+		padding-top: 2vmax;
+		padding-bottom: 0.5vmax;
+		padding-left: 1vmax;
+		padding-right: 1vmax;
 		font-weight: 500;
+		}
+.msg{
+		color: rgba(255,255,255,0.5);
+		font-size: 1.1vmax;
+		padding-top: 0.5vmax;
+		padding-bottom: 2vmax;
 		}
 .fab{
 	color: rgba(255,255,255,0.5);
 	font-size: 2.2vmax;
-	padding: 0.5vmax 0.5vmax 2vmax 0.5vmax;
+	padding: 0.5vmax 0.5vmax 2.5vmax 0.5vmax;
 }
 .fas{
 	color: rgba(255,255,255,0.5);
 	font-size: 2.2vmax;
-	padding: 0.5vmax 0.5vmax 2vmax 0.5vmax;
+	padding: 0.5vmax 0.5vmax 2.5vmax 0.5vmax;
 }
 .fab:hover{
 		color: white;
