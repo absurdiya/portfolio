@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Bodoni Moda', serif;
-    font-weight: 400;
+        font-weight: 400;
 		
 }
 
@@ -165,8 +165,32 @@
 	 position: fixed;
 	 top: 0px;
 	 padding: 5px;
-	 text-align: left;
+	 text-align: right;
 	 }
+	 
+.nav-button{
+		color: rgba(255,255,255,0.6);
+		display: inline-block;
+		font-family: 'Bodoni Moda', serif;
+                font-weight: 400;
+                font-size: 20px;
+                padding: 5px 10px 5px 10px;
+	
+	}
+.nav-button:link{
+			text-decoration: none;
+		}
+.nav-button:hover{
+			text-decoration: none;
+			color: white;
+		}
+.nav-button:active{
+			text-decoration: none;
+			color: rgba(255,255,255,0.6);
+		}
+.nav-button:visited{
+			text-decoration: none;
+		}
 	 			
 
 #greeting{
@@ -270,6 +294,14 @@
 .prev-link:hover{
 					text-decoration: none;
 					filter: brightness(0.6);
+		}
+.prev-link:active{
+			text-decoration: none;
+			filter: none;
+		}
+.prev-libk:visited{
+			text-decoration: none;
+			filter: none;
 		}
 
 .image-prev{
