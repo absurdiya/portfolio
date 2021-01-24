@@ -191,7 +191,7 @@
 .section-head{
 			text-align: center;
 			font-size: 1.4vmax;
-			background-color: rgba(50,50,50,0.2);
+			background-color: rgba(70,70,70,0.5);
 			padding: 0.8em;
 			margin-top: 0;
 			margin-bottom: 0.5em;
@@ -295,6 +295,20 @@ body{
 #greeting{
 		transition: all 0.3s ease;
 	}
+
+.footer{
+		background-color: rgba(70,70,70,0.5);
+		width: 100%;
+		text-align: center;
+}
+.footer-text{
+		font-size: 1.5vmax;
+		padding: 1.5em;
+		}
+.fab{
+	font-size: 2vmax;
+	padding: 0.5vmax 0.5vmax 2vmax 0.5vmax;
+}
 
 /*-----------------------------Media Queries----------------------------------*/
 @media(min-width: 992px){
