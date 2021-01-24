@@ -45,7 +45,7 @@
   --text-color-headers-fog: #33252a;
   --text-color-card-fog: #a2a8c3;
   --text-color-greet-fog: #a2a8c3;
-  --button-text-fog: #a2a8c3;
+  --button-text-fog: #33252a;
   
 
 --color-body-night: #30291f;
@@ -54,7 +54,7 @@
   --text-color-headers-night: #8f978d;
   --text-color-card-night: #1f1a13;
   --text-color-greet-night: #1f1a13;
-  --button-text-night: #1f1a13;
+  --button-text-night: #8f978d;
   
 
     --color-body-main: #9ab6ca;
@@ -208,6 +208,7 @@
 .button:hover {
   		filter: brightness(0.3);
 		outline: none;
+		color: #000000;
 		}
 .button:focus{
 		outline: none;
