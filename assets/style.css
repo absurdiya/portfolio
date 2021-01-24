@@ -250,15 +250,17 @@
 
 
 .preview-element{
+		height: 200px;
 		width: auto;
 		transition: all 0.3s ease;
 	}
 .prev-text{
-		    text-align: justify;
-		    font-size: 1.2vmax;
-		    padding-top: 0.9vmax;
-		    padding-right: 0.9vmax;
-			padding-bottom: 0.9vmax;
+		    
+		    text-align: left;
+		    font-size: 0.9vmax;
+		    padding-top: 3.3em;
+			padding-bottom: 3em;
+			padding-right: 1em;
 		   }
 .prev-link{
 			display: grid;
@@ -276,9 +278,11 @@
 		}
 
 .image-prev{
-	width:40%;
+	width: auto;
 	height: 100%;
-	object-fit: cover;
+	margin-top: 0;
+	margin-left: 0;
+	object-fit: contain;
 	float: left;
 	padding-right: 1vmax;
 	}
