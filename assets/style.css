@@ -157,47 +157,13 @@
 }
 /*****************************************************************/	
 
-
-.nav{
-	 width:100%;
-	 background-color: rgba(70,70,70,0.8);
-	 height: 40px;
-	 position: fixed;
-	 top: 0px;
-	 padding: 5px;
-	 text-align: right;
-	 }
-	 
-.nav-button{
-		color: rgba(255,255,255,0.6);
-		font-family: 'Bodoni Moda', serif;
-                font-weight: 400;
-                font-size: 20px;
-                padding: 10px;
-	
-	}
-.nav-button:link{
-			text-decoration: none;
-		}
-.nav-button:hover{
-			text-decoration: none;
-			color: white;
-		}
-.nav-button:active{
-			text-decoration: none;
-			color: rgba(255,255,255,0.6);
-		}
-.nav-button:visited{
-			text-decoration: none;
-		}
 	 			
-
 #greeting{
 		padding: 1em;
 		margin-top: -7px;
 	}
 #banner{
-		margin:40px 0 0 0;
+		margin:0;
 		padding:0;
 		width: auto;
 	}
@@ -258,13 +224,6 @@
 		height: auto;
 	}
 
-/*.more{
-		font-size: 1.4vmax;
-		text-align: right;
-		padding-right: 2vmax;
-}*/
-
-
 
 .preview-element{
 		height: 200px;
@@ -312,13 +271,6 @@
 	float: left;
 	padding-right: 1vmax;
 	}
-
-/*.image-prev{
-	width:40%;
-	height: auto;
-	float: left;
-	padding-right: 1vmax;
-	}*/
 
 body{
 		transition: all 0.3s ease;
